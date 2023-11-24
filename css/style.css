@@ -1,0 +1,71 @@
+
+.containers{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: white;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.containers.active{
+    width: 400px;
+}
+#full-screen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.containers .icon{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.containers .icon .search{
+    font-size: 21px;
+    cursor: pointer;
+    color:#444;
+}
+.containers .input{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containers .input input{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+.containers .input .clear{
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 20px;
+    
+}

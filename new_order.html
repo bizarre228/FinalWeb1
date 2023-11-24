@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tickects</title>
+    <link rel="stylesheet" href="css/new_order_css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="Images/ticket_1557002.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+</html>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tickets</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="containers"> 
+                    <div class="icon">
+                        <i class="search fa fa-search"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Search" id="search">
+                        <i class="clear fa fa-times"></i>
+                    </div>
+                </div>
+                
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Home</a>
+                            <a class="dropdown-item" href="about.html">About<span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="book.html">Book<span class="sr-only">(current)</span></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="new_order.html">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<section>
+        <div class="container">
+            <h2>Contact Us</h2>
+        </div>
+</section>
+    <div class="row container-fluid p-5 my-5 justify-content-center">
+        <form id="orderForm" class="col-12 col-md-8 col-lg-6">
+            <div id="order">
+                <br>
+                <hr>
+                <h2 class="text-center">Details</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" class="form-control" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" id="submitBtn" class="btn btn-secondary">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <p id="userOutput"></p>
+        </form>
+    </div>
+    <div class="text-center">
+        <h2>Let's play simple game</h2>
+        <h4>Place the elements in right order!</h4>
+      </div>
+      <br>
+      <div class="containerg">
+        <div class="game-container">
+            <div class="container-box" id="box1">
+                <div class="container-text">Clapper Board</div>
+            </div>
+            <div class="container-box" id="box2">
+                <div class="container-text">3D Glasses</div>
+            </div>
+            <div class="container-box" id="box3">
+                <div class="container-text">Popcorn</div>
+            </div>
+        </div>
+        <div class="game-container">
+            <img class="object border px-2" draggable="true" id="object1" src="Images/clapperboard.png" alt="Object 1">
+            <img class="object border px-2" draggable="true" id="object2" src="images/3d-glasses.png" alt="Object 2">
+            <img class="object border px-2" draggable="true" id="object3" src="images/popcorn.png" alt="Object 3">
+        </div>
+      </div>
+      <br>
+    <button type="button" class="btn btn-secondary mr-2" id="scrollToTopBtn">To the Top</button>
+ 
+    <footer>
+        <p>&copy; 2023 made by Zhansaya & Bernar</p>
+    </footer>
+  
+    <script src="Scipts/new_order_script.js"></script>
+    <script src="Scipts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>

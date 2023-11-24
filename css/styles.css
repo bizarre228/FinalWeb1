@@ -1,0 +1,285 @@
+.navbar {
+    background-color: #FFF;
+}
+
+
+.navbar-brand {
+    color: #D80032;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #f2f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #D80032;
+}
+#full-screen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+/* styles.css */
+.btn-secondary-scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* Add other styling as needed */
+}
+
+.btn-primary {
+    background-color: #D80032;
+    color: #FFF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #A20027;
+}
+
+.img-transition {
+    transform: translateX(100%);
+    transition: transform 1s ease;
+}
+
+.about-content {
+    transition: opacity 1s ease;
+}
+
+
+
+.img-transition {
+    transform: translateX(0%);
+}
+
+.about-content {
+    opacity: 1;
+}
+
+#contact {
+    background-color: #faecec;
+    padding: 50px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    clear: both;
+}
+
+.contact-info {
+    background-color: rgb(251, 251, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.telegram-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.icon {
+    font-family: 'FontAwesome';
+    font-size: 24px;
+    margin-right: 0px;
+}
+
+
+.telegram-username {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.telegram-username a {
+    font-size: 12px;
+    color: #c64c4c;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.telegram-username a:hover {
+    text-decoration: underline;
+}
+.instagram-username{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.instagram-username a{
+    font-size: 12px;
+    color: #c64c4c;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.instagram-username a:hover {
+    text-decoration: underline;
+}
+.mail-username{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.mail-username a{
+    font-size: 12px;
+    color: #c64c4c;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.mail-username a:hover {
+    text-decoration: underline;
+}
+
+#collection {
+    padding: 50px 0;
+}
+#collection h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#collection p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.collection-item {
+    margin-bottom: 20px;
+}
+.collection-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.collection-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.collection-item p {
+    font-size: 16px;
+}
+
+
+.chanel-theme {
+    text-align: center;
+}
+
+.chanel-title, .chanel-description {
+    margin: auto;
+    width: 50%;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tablinks {
+    margin: 0 10px;
+}
+
+.tabcontent {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.tabcontent img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myBt {
+    border: none; /* Убираем рамку */
+    background: none; /* Убираем фон */
+    cursor: pointer; /* Делаем курсор указателем при наведении */
+    color: #000; /* Цвет текста */
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myB {
+    border: none; /* Убираем рамку */
+    background: none; /* Убираем фон */
+    cursor: pointer; /* Делаем курсор указателем при наведении */
+    color: #000; /* Цвет текста */
+}

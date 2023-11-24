@@ -1,0 +1,26 @@
+.containerg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container {
+    display: flex;
+    margin-top: 20px; 
+}
+
+.object {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
